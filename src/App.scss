@@ -1,0 +1,35 @@
+* {
+  margin: 0; 
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100%; 
+
+  h1 {
+    color: red; 
+  }
+
+  .app__header {
+    background-color: white; ;
+    padding: 20px; 
+    border-bottom: 1px solid lightgrey;
+    img{
+      display: block;
+      object-fit: contain;
+      width: 100px; 
+    }
+  }
+}
+
+//import Components 
+@import 'scss/post'
+
+
+
+
+
+
+
+
+
